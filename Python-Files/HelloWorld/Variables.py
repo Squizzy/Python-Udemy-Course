@@ -9,4 +9,6 @@ print(Tim_Was_57 + ' ' + greeting)
 age = 24
 print(age)
 
-print(greeting + age)
+# print(greeting + ' ' + age)
+
+a = 12
