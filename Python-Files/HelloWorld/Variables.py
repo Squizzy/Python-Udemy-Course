@@ -33,3 +33,12 @@ print(a+b/3-4*12)
 print(8/2*3)
 print(8 *3 /2)
 print((((a+b)/3)-4)*12)
+
+
+# Part 2
+c = a+b
+d = c / 3
+e = d - 4
+f = e *12
+print(f)
+
