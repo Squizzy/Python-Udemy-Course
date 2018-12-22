@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ae6054a-e81d-4ccd-8c63-2d5898f0aa88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python-Files/HelloWorld/Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-Files/HelloWorld/StringsFormatting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Files/HelloWorld/Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Files/HelloWorld/Variables.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python-Files/HelloWorld/Strings.py">
+        <entry file="file://$PROJECT_DIR$/Python-Files/HelloWorld/StringsFormatting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="278">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -42,6 +41,7 @@
         <option value="$PROJECT_DIR$/Python-Files/HelloWorld/.idea/Strings.py" />
         <option value="$PROJECT_DIR$/Python-Files/HelloWorld/Variables.py" />
         <option value="$PROJECT_DIR$/Python-Files/HelloWorld/Strings.py" />
+        <option value="$PROJECT_DIR$/Python-Files/HelloWorld/StringsFormatting.py" />
       </list>
     </option>
   </component>
@@ -83,7 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545520579868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545521972771" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -108,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Strings">
+  <component name="RunManager" selected="Python.StringsFormatting">
     <configuration name="Strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Udemy-Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +122,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Files/HelloWorld/Strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StringsFormatting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Udemy-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Files/HelloWorld" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Files/HelloWorld/StringsFormatting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,6 +174,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StringsFormatting" />
         <item itemvalue="Python.Strings" />
         <item itemvalue="Python.Variables" />
       </list>
@@ -176,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545518479798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Variables and strings Part 2 till end">
+      <created>1545520639347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545520639347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -215,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables Part 1 till end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables Part 1 till end" />
+    <MESSAGE value="Variables and strings Part 2 till end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables and strings Part 2 till end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -230,8 +260,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Files/HelloWorld/Strings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="278">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Files/HelloWorld/StringsFormatting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
