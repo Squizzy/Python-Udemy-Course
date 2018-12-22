@@ -35,3 +35,15 @@ for i in range(1, 12):
 print("Pi is approximately %12.50f" % (22/7))
 # End of deprecated
 
+for i in range(1, 12):
+    print("No. {0:2} squired is {1:4} and cubed is {2:4}".format(i, i**2, i**3))
+
+# < means left align
+for i in range(1, 12):
+    print("No. {0:2} squired is {1:<4} and cubed is {2:<4}".format(i, i**2, i**3))
+
+print("Pi is approximately {0:12.50f}".format(22/7))
+
+# positioning is optional
+for i in range(1, 12):
+    print("No. {:2} squired is {:4} and cubed is {:<4}".format(i, i**2, i**3))
