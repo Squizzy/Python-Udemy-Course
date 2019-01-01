@@ -27,18 +27,21 @@ __author__ = 'dev'
 # approach we're looking for here.
 
 
+ip = input("Please enter an IP address: ")
 
+segments = 0
+firstSegment = False
+segmentLength = []
 
+for num in ip:
+    if num in "." and firstSegment:
+        segments += 1
+    if num in "012345678":
+        if segments == 0:
+            segments += 1
+        firstSegment = True
+#        segmentLength[segments] += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
+print("Number of seggments: {}".format(segments))
+for i in range(0, segments):
+    print("Segment[{0}] has length {1}".format(i, segmentLength[i]))
