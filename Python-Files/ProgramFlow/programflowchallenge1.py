@@ -31,7 +31,6 @@ ip = input("Please enter an IP address: ")
 
 segments = 0
 firstSegment = False
-segmentLength = []
 
 for num in ip:
     if num in "." and firstSegment:
@@ -40,8 +39,27 @@ for num in ip:
         if segments == 0:
             segments += 1
         firstSegment = True
-#        segmentLength[segments] += 1
+print("Number of segments: {}".format(segments))
 
-print("Number of seggments: {}".format(segments))
-for i in range(0, segments):
-    print("Segment[{0}] has length {1}".format(i, segmentLength[i]))
+if segments > 0:
+    segmentLength = 0
+    firstSegment = False
+    segNum = 0
+    for num in ip:
+        if num in "." and firstSegment:
+            print("Segment {0} has length of {1} digits".format(segNum, segmentLength))
+            segNum += 1
+            segmentLength = 0
+        if num in "012345678":
+            firstSegment = True
+            if segNum == 0:
+                segNum += 1
+                segmentLength = 0
+            segmentLength += 1
+        # if segmentLength == 0 and segNum > 0:
+    print("Segment {0} has length of {1} digits".format(segNum, segmentLength))
+
+
+
+# for i in range(0, segments):
+#     print("Segment[{0}] has length {1}".format(i, segmentLength[i]))
