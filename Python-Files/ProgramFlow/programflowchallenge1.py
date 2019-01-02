@@ -35,10 +35,12 @@ firstSegment = False
 for num in ip:
     if num in "." and firstSegment:
         segments += 1
-    if num in "012345678":
+    elif num in "012345678":
         if segments == 0:
             segments += 1
         firstSegment = True
+    else:
+        continue
 print("Number of segments: {}".format(segments))
 
 if segments > 0:
@@ -50,13 +52,15 @@ if segments > 0:
             print("Segment {0} has length of {1} digits".format(segNum, segmentLength))
             segNum += 1
             segmentLength = 0
-        if num in "012345678":
+        elif num in "012345678":
             firstSegment = True
             if segNum == 0:
                 segNum += 1
                 segmentLength = 0
             segmentLength += 1
         # if segmentLength == 0 and segNum > 0:
+        else:
+            continue
     print("Segment {0} has length of {1} digits".format(segNum, segmentLength))
 
 
