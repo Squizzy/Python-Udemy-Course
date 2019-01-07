@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ae6054a-e81d-4ccd-8c63-2d5898f0aa88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python-Files/HelloWorld/Tabs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,17 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python-Files/HelloWorld/Tabs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,16 +37,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
-    <option name="y" value="517" />
-    <option name="width" value="1401" />
-    <option name="height" value="1002" />
+    <option name="x" value="337" />
+    <option name="y" value="379" />
+    <option name="width" value="1233" />
+    <option name="height" value="640" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,22 +55,10 @@
               <item name="Python-Udemy-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Udemy-Course" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python-Udemy-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-Udemy-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Python-Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-Udemy-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-Udemy-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Python-Files" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -246,9 +225,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="345" width="934" height="668" extended-state="0" />
+    <frame x="337" y="379" width="1233" height="640" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26544622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29838023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,7 +243,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.5641026" />
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" weight="0.32897195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
