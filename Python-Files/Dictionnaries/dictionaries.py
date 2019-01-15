@@ -80,8 +80,23 @@ print(fruit)
 # print(fruit.keys())
 # print(fruit.values())
 
-fruit_keys = fruit.keys()
-print(fruit_keys)
+# ### assigning keys to a value and updating the dictionary
+# fruit_keys = fruit.keys()
+# print(fruit_keys)
+#
+# fruit["tomato"] = "not nice with ice cream"
+# print(fruit_keys)
 
-fruit["tomato"] = "not nice with ice cream"
-print(fruit_keys)
+### moving dictionaries to tuples
+print()
+print(fruit.items())
+f_tuple = tuple(fruit.items())
+print(f_tuple)
+
+for snack in f_tuple:
+    item, description = snack
+    print(item + " is " + description)
+
+## moving tuples to dictionary
+print(dict(f_tuple))
+
