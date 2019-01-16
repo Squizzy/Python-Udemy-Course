@@ -58,17 +58,83 @@
 # print(squares & even)
 
 
-### subtracting set b from set a removes all the items from set b found in set a
-even = set(range(0,40,2))
-print("even: \t\t" + str(sorted(even)))
-squares_tuple = (4, 6, 9, 16, 25)
-squares = set(squares_tuple)
-print("squares: \t" + str(sorted(squares)))
+# ### subtracting set b from set a removes all the items from set b found in set a
+# even = set(range(0, 40, 2))
+# print("even: \t\t" + str(sorted(even)))
+# squares_tuple = (4, 6, 9, 16, 25)
+# squares = set(squares_tuple)
+# print("squares: \t" + str(sorted(squares)))
+#
+# print("even minus squares")
+# print(sorted(even.difference(squares)))
+# print(sorted(even - squares))
+#
+# print("squares minus even")
+# print(squares.difference(even))
+# print(squares - even)
+#
+#
+# ### use difference_update to modify the set in place
+#
+# print("=" *40)
+# print(sorted(even))
+# print(squares)
+# even.difference_update((squares))
+# print(sorted(even))
 
-print("even minus squares")
-print(sorted(even.difference(squares)))
-print(sorted(even-squares))
 
-print("squares minus even")
-print(squares.difference(even))
-print(squares - even)
+# ### symmetric difference of two sets means numberd that are in one but not in the other = opposite of intersection
+# even =set(range(0, 40, 2))
+# print("even: \t\t" + str(sorted(even)))
+# squares_tuple = (4, 6, 9, 16, 25)
+# squares = set(squares_tuple)
+# print("squares: \t" + str(sorted(squares)))
+#
+# print("symmetric even minus squares")
+# print(sorted(even.symmetric_difference(squares)))
+#
+# print("symmetric squares minus even")
+# print(sorted(squares.symmetric_difference(even)))
+
+
+# ### removing items from sets - use discord or remove - remove will generate an error if item to be removed doesn't exist
+# even = set(range(0, 40, 2))
+# print("even: \t\t" + str(sorted(even)))
+# squares_tuple = (4, 6, 9, 16, 25)
+# squares = set(squares_tuple)
+# print("squares: \t" + str(sorted(squares)))
+#
+# squares.discard(4)
+# squares.remove(16)
+# squares.discard(8)  # doesn't generate an error
+# print(squares)
+# # squares.remove(8)  # generates an error
+#
+# ### to use remove, make sure the item is in before
+# if 8 in squares:
+#     squares.remove(8)
+#
+# ### sometimes it is useful that there is an error
+# try:
+#     squares.remove(8)
+# except KeyError:
+#     print("The item 8 is not a member of the set")
+
+
+# ### Testing for subset or superset - subset: all the members of a set are in the other
+#
+# even = set(range(0, 40, 2))
+# print("even: \t\t" + str(sorted(even)))
+# squares_tuple = (4, 6, 16)
+# squares = set(squares_tuple)
+# print("squares: \t" + str(sorted(squares)))
+#
+# if squares.issubset(even):
+#     print("Squares in s subeet of even")
+#
+# if even.issuperset(squares):
+#     print("even if a superset of square")
+
+even = frozenset(range(0, 100, 2))
+print(even)
+even.add(3)  # doesn't work
